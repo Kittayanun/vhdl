@@ -7,8 +7,8 @@ entity PC is
 	port(
 		Clk	:	in	std_logic;
 		Reset	:	in	std_logic;
-		PC_IN	:	in	std_logic_vector(7 downto 0);
-		PC_OUT:	out std_logic_vector(7 downto 0)
+		PC_IN	:	in	std_logic_vector(1 downto 0);
+		PC_OUT:	out std_logic_vector(1 downto 0)
 	);
 end PC;
 
