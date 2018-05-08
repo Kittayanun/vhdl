@@ -24,10 +24,10 @@ end regis;
 architecture Behav of regis is
 type reg_type is array (0 to 3 ) of std_logic_vector (7 downto 0);
 signal reg_array: reg_type:=(
-	x"05",
-	x"10",
-	x"15",
-	x"20"
+	"00011110",
+	"00010110",
+	"00000111",
+	"00001111"
 	);
 	
 signal test_data1 : std_logic_vector(7 downto 0);
